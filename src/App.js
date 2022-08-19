@@ -1,7 +1,7 @@
 
 import {useState} from "react"
 import Display from './components/Display/Display';
-import Button from './components/Button/Button';
+import Buttons from './components/Buttons/Buttons';
 import Container from './components/Container/Container';
 
 
@@ -55,7 +55,7 @@ function App() {
       <div className="main-section">
         <h1>TIMER</h1>
         <Display  time={time}/>
-        <Button start = {start} stop = {stop} reset = {reset} />
+        <Buttons start = {start} stop = {stop} reset = {reset} />
       </div>
     </Container>
   );

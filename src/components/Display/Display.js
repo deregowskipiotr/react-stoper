@@ -16,9 +16,9 @@ const Display = ({time}) => {
       <span>
         {h >=10 ? s:"0" + s}
       </span>
-      :
+      .
       <span>
-        {h >=10 ? ms:"0" + ms}
+        {h >=10 ? ms:"" + ms}
       </span>
       
     </div>

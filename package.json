@@ -46,5 +46,19 @@
   "plugins": [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
     "@babel/plugin-proposal-class-properties"
-  ]
+  ],
+
+  "hintConfig": {
+        "connector": {
+            "name": "connectorName"
+        },
+        "formatters": ["formatterName"],
+        "parsers": ["parserName"],
+        "hints": {
+            "hint1": "error",
+            "hint2": "warning",
+            "hint3": "off"
+        },
+        "hintsTimeout": 120000
+    }
 }
